@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Avançado</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #ccc;
+        }
+
+        .carousel-item img {
+            border-radius: 2vw;
+            margin-top: 1vw;
+        }
+
+        h1 {
+            margin-top: 2vh;
+            text-align: center;
+            border-bottom: 1px solid #000;
+            padding-bottom: 1vh;
+        }
+        
+        .card {
+            margin: 2vh 0;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 2vh 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div id="carousel1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div>
+                            <div data-bs-interval="3000" class="carousel-item active">
+                                <img src="https://i.pinimg.com/originals/19/bb/89/19bb89abae8f4d68fb4a97cb284e5c45.png" />
+                            </div>
+                            <div data-bs-interval="3000" class="carousel-item">
+                                <img src="https://i.pinimg.com/originals/8a/a5/ff/8aa5ffdf849df9064d239bc03b315dca.jpg" />
+                            </div>
+                            <div data-bs-interval="3000" class="carousel-item">
+                                <img src="https://wallpapercave.com/wp/wp5968598.png" />
+                            </div>
+                            <div data-bs-interval="3000" class="carousel-item">
+                                <img src="https://wallpapers.com/images/hd/off-white-background-poster-ya8al91b1h5h40b4.jpg" />
+                            </div>
+                            <div data-bs-interval="3000" class="carousel-item">
+                                <img src="https://wallpapercave.com/wp/wp5968611.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <h1>Produtos</h1>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Gorro Lenhador Off White</h3>
+                    </div>
+                    <div class="card-body">
+                        <img src="https://images.tcdn.com.br/img/img_prod/747002/180_gorro_lenhador_hoshwear_off_white_1027_2_91b8ef4f0ff5d3d224f1e0137a1c1aab_20220718102104.jpg" />
+                    </div>
+                    <div class="card-footer">
+                        <h4 class="d-block">R$89,90</h4> ou em <strong>3x</strong> de <strong>R$29,97</strong> Sem Juros
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Gorro Lenhador Azul Royal</h3>
+                    </div>
+                    <div class="card-body">
+                        <img src="https://images.tcdn.com.br/img/img_prod/747002/180_gorro_lenhador_hoshwear_azul_royal_1139_2_309512fbfbc8b1a890bf0d4993b77746.jpg" />
+                    </div>
+                    <div class="card-footer">
+                        <h4 class="d-block">R$89,90</h4> ou em <strong>3x</strong> de <strong>R$29,97</strong> Sem Juros
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Bermuda Cargo Off White</h3>
+                    </div>
+                    <div class="card-body">
+                        <img src="https://images.tcdn.com.br/img/img_prod/747002/180_bermuda_cargo_tactel_ziper_hoshwear_off_white_1105_1_bae3e07836db6a18aae3a3c67a0631b8.jpg" />
+                    </div>
+                    <div class="card-footer">
+                        <h4 class="d-block">R$149,90</h4> ou em <strong>3x</strong> de <strong>R$49,97</strong> Sem Juros
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Blusa de Moletom STH Branca</h3>
+                    </div>
+                    <div class="card-body">
+                        <img src="https://images.tcdn.com.br/img/img_prod/747002/180_blusa_de_moletom_capuz_hoshwear_sth_branca_1055_1_64cd44bdccb442f98e79e0cf3a7d0327_20220718102101.jpg" />
+                    </div>
+                    <div class="card-footer">
+                        <h4 class="d-block">R$269,90</h4> ou em <strong>3x</strong> de <strong>R$89,97</strong> Sem Juros
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Blusa de Moletom Bold Marrom</h3>
+                    </div>
+                    <div class="card-body">
+                        <img src="https://images.tcdn.com.br/img/img_prod/747002/180_blusa_de_moletom_capuz_hoshwear_bolt_marrom_915_1_2d4a9c8c763783c36e2134ffa707a7e0.jpg" />
+                    </div>
+                    <div class="card-footer">
+                        <h4 class="d-block">R$269,90</h4> ou em <strong>3x</strong> de <strong>R$89,97</strong> Sem Juros
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Camiseta Masculina Fat Castle Off White</h3>
+                    </div>
+                    <div class="card-body">
+                        <img src="https://images.tcdn.com.br/img/img_prod/747002/180_camiseta_masculina_hoshwear_fat_castle_off_white_1241_2_dc24c5822971c0e167294d60298eb2bc.jpg" />
+                    </div>
+                    <div class="card-footer">
+                        <h4 class="d-block">R$109,90</h4> ou em <strong>3x</strong> de <strong>R$36,63</strong> Sem Juros
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h5>Atividade Prática: Bootstrap Avançado</h5>
+        <h5>Desenvolvido por: Marcelo Roberto Rosa Junior</h5>
+        <h5>EBAC - Desenvolvedor Full Stack Python</h5>
+    </footer>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
